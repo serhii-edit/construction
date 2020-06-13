@@ -1,0 +1,23 @@
+{
+  "name": "construction",
+  "version": "1.0.0",
+  "description": "Website of the company which is engaged in construction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serhii-edit/construction.git"
+  },
+  "author": "Serhii Yakymenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serhii-edit/construction/issues"
+  },
+  "homepage": "https://github.com/serhii-edit/construction#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  }
+}
