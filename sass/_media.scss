@@ -1,0 +1,82 @@
+// Media for header 
+@media screen and (max-width: 1070px) {
+  .header-nav__li {
+    margin-right: 45px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header-nav__li {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .header-nav {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+}
+// end of media header
+
+
+// Media for hero
+@media screen and (max-width: 910px) {
+  .hero__title {
+    font-size: 55px;
+    max-width: 600px;
+  }
+  .hero__subtitle {
+    max-width: 445px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .hero__title {
+    font-size: 40px;
+    max-width: unset;
+    width: 100%;
+    margin-top: 220px;
+  }
+  .section-hero_bg {
+    min-height: 665px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .hero__title {
+    font-size: 33px;
+  }
+  .hero__subtitle {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-hero_bg {
+    min-height: 630px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header-prev {
+    display: none;
+  }
+  .hero__title {
+    // margin-top: 110px;
+  }
+  .section-hero_bg {
+    // min-height: 520px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .hero__title {
+    font-size: 25px;
+  }
+  .hero__subtitle {
+    font-size: 13px;
+    max-width: 250px;
+  }
+}

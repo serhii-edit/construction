@@ -1,0 +1,70 @@
+
+.header-next {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 33px;
+  position: fixed;
+}
+
+.header-next__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  // padding-top: 23px;
+  // padding-bottom: 23px;
+}
+
+
+.header-next__logo {
+  color: #252c30;
+  font-family: "Proxima Nova A";
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  // color: #ffc000;
+  transition: 0.3s;
+}
+
+.header-next__logo:hover {
+  letter-spacing: 5px;
+}
+
+.logo__primary {
+  color: #ffc000;
+}
+
+.header-nav {
+  margin-left: 10px;
+}
+
+.header-nav__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-nav__li {
+  margin-right: 61px;
+  vertical-align: middle;
+}
+
+.header-nav__li:last-child {
+  margin-right: unset;
+}
+
+.header-nav__link {
+  text-transform: uppercase;
+  color: #252c30;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header-nav__link:hover {
+  color: #ffc000;
+  border-bottom: 2px solid #0056CF;
+  padding-bottom: 35px;
+  border-radius: 1px;
+}
