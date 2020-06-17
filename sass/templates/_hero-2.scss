@@ -6,7 +6,7 @@
 
 .hero-2__prev-title {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   color: #232323;
   font-family: "Proxima Nova A", sans-serif;
@@ -23,7 +23,7 @@
 }
 
 .hero-2__subtitle {
-  width: 713px;
+  max-width: 718px;
   color: #232323;
   font-family: "Proxima Nova A", sans-serif;
   font-size: 18px;
@@ -40,14 +40,44 @@
 .hero-2__col-wrap {
   display: flex;
   flex-direction: row;
+  margin-right: 30px;
 }
 
 .hero-2__cols {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  text-align: center;
+  background-color: #2d3e50;
   margin-right: 30px;
+  color: #fff;
+  transition: 0.3s;
+  padding: 61px 25px;
+}
+
+.hero-2-col__icon {
+  margin-bottom: 45px;
+}
+
+
+.hero-2-col__title {
+  font-family: "Proxima Nova A", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero-2-col__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.hero-2__cols:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .hero-2__cols:last-child {

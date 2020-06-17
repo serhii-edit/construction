@@ -1,0 +1,35 @@
+.col-4-line {
+  margin-bottom: 110px;
+}
+
+.col-4-line__bg {
+  background: url("../../img/col-4-line-bg.jpg") no-repeat center/cover;
+  width: 100%;
+  min-height: 244px;
+  display: flex;
+  align-items: center;
+}
+
+.col-4-line__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.col-4-line__col {
+  text-align: center;
+}
+
+.col-4-line__title {
+  color: #ffffff;
+  font-family: "Proxima Nova A", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.col-4-line__subtitle {
+  color: #ffffff;
+  font-family: "Proxima Nova A", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+}

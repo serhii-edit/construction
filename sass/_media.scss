@@ -80,3 +80,136 @@
     max-width: 250px;
   }
 }
+
+// hero -2\ 
+@media screen and (max-width: 1079px) {
+  .hero-2-col__title {
+    font-size: 14px;
+  }
+  .hero-2-col__subtitle {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 929px) {
+  .hero-2-col__title {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .hero-2-col__title {
+    font-size: unset;
+  }
+  .hero-2-col__subtitle {
+    font-size: unset;
+  }
+  .hero-2__down {
+    flex-direction: column;
+  }
+  .hero-2__col-wrap {
+    margin-right: unset;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  .hero-2-col__subtitle {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .hero-2__col-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-2__cols {
+    margin-right: unset;
+    margin-bottom: 30px;
+  }
+}
+
+// our service
+
+@media screen and (max-width: 1240px) {
+  .our-service-image {
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .our-service__img {
+    min-height: 525px;
+    width: 100%;
+    position: unset;
+    left: unset;
+    margin-right: 0;
+    background-size: contain;
+    margin: 0 auto;
+  }
+  .our-service__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .our-service__info {
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .hero-2 {
+    margin-bottom: -25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .our-service__info {
+    margin-top: -50px;
+  }
+  .hero-2 {
+    margin-bottom: -65px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .hero-2 {
+    margin-bottom: -105px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .our-service__info {
+    margin-top: -90px;
+  }
+  .our-service__col-title {
+    font-size: 16px;
+  }
+  .our-service__col-subtitle {
+    font-size: 13px;
+  }
+  .hero-2 {
+    margin-bottom: -145px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .our-service__col {
+    flex-direction: column;
+    text-align: center;
+  }
+  .our-service__title {
+    text-align: center;
+  }
+  .our-service__col-icon {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .our-service__col-title {
+    margin-bottom: 05px;
+  }
+  .our-service__col-subtitle {
+    max-width: 260px;
+  }
+}
