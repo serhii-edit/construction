@@ -33,3 +33,47 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+
+.scrollup {
+  position: fixed;
+  right: 15px;
+  bottom: 10px;
+}
+
+.scrollup img {
+  transform: rotate(90deg);
+  width: 60px;
+  border-radius: 50%;
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.scrollup img:hover {
+  opacity: 1;
+}
+
+.footer-form__input-block {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-massage {
+  color: tomato;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+
+input.error-massage {
+  border-bottom: 1px solid tomato;
+}
+
+textarea.error-massage {
+  border-bottom: 1px solid tomato;
+}
+
