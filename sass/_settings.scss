@@ -77,3 +77,13 @@ textarea.error-massage {
   border-bottom: 1px solid tomato;
 }
 
+.footer-form__policy-input {
+  // visibility: visible !important;
+  // opacity: 1 !important;
+  display: block !important;
+  
+}
+
+.footer-form__policy > .error-massage {
+  text-align: center;
+}

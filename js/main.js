@@ -58,6 +58,7 @@ $('a').click(function(e){
 
 // vaditation form (down)
   $("form").validate({
+    errorElement: "div",
     errorClass: "error-massage",
     rules: {
       // simple rule, converted to {required:true}
@@ -65,6 +66,7 @@ $('a').click(function(e){
         required: true,
         minlength: 2,
       },
+      userPolicy: "required",
       userPhone: {
         required: true,
         maxlength: 17,
@@ -78,11 +80,6 @@ $('a').click(function(e){
       userMassage: {
         required: true,
         minlength: 100,
-      },
-      // compound rule
-      email: {
-        required: true,
-        email: true
       }
     },
     messages: {
@@ -90,7 +87,8 @@ $('a').click(function(e){
         required: "Please specify your name",
         minlength: " Not shorter than 2",
       },
-      userPhone: "Phone requirde",
+      userPhone: "Phone required",
+      userPolicy: "Agreement required",
       userEmail: {
         required: "Please specify email",
         email: "Example, name@gmail.com",
@@ -98,6 +96,17 @@ $('a').click(function(e){
       userMassage: {
         minlength: "Type more...",
       },
+    },
+    submitHandler: function(form) {
+      $.ajax({
+        type: "POST",
+        url: "../telegram.php",
+        data: $(form).serialize(),
+        success: function (response) {
+          console.log("From has been sumbited!");
+          $(form)[0].reset();
+        }
+      });
     }
   });
 
