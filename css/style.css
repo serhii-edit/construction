@@ -333,7 +333,8 @@ body {
 .scrollup {
   position: fixed;
   right: 15px;
-  bottom: 10px; }
+  bottom: 10px;
+  z-index: 2; }
 
 .scrollup img {
   transform: rotate(90deg);

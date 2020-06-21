@@ -103,7 +103,7 @@ $('a').click(function(e){
         url: "../telegram.php",
         data: $(form).serialize(),
         success: function (response) {
-          console.log("From has been sumbited!");
+          alert("From has been sumbited!");
           $(form)[0].reset();
         }
       });

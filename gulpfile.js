@@ -1,6 +1,7 @@
 var {src, dest, watch} = require("gulp");
 var browserSync = require('browser-sync').create();
 var sass = require("gulp-sass");
+var autoprefixer = require('gulp-autoprefixer');
 
 
 // Static server
@@ -25,3 +26,11 @@ function serveSass() {
 };
 
 exports.serve = bs;
+
+exports.pr = () => (
+  gulp.src('css/style.css')
+      .pipe(autoprefixer({
+          cascade: false
+      }))
+      .pipe(gulp.dest('/css/'))
+);
